@@ -1,0 +1,14 @@
+Source: lider-console
+Version: 1.1
+Section: utils
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Maintainer: Ömer Çakmak <farukomercakmak@gmail.com>
+
+Package: lider-console
+Depends: default-jre
+Section: utils
+Priority: optional
+Architecture: all
+Description: Lider-Console centralized management interface
+ Acik Kaynak Merkezi Yonetim Sistemi

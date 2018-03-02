@@ -1,0 +1,4 @@
+#Fri Jan 26 08:07:19 EET 2018
+-Xms=512m
+-XX\:MaxPermSize\==256m
+-Xmx=2048m
