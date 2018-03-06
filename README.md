@@ -1,6 +1,6 @@
 # LiderArayüz
 
-## Paketin İnşa Edilmesi##
+## Paketin İnşa Edilmesi
 
 LiderAhenk Merkezi Yönetim Sistemi yönetim aracı olan **LiderArayüz** bileşeninin, debian paketi haline getirme adımlarını içermektedir.
 
@@ -24,7 +24,7 @@ Yukarıdaki adımdan sonra **/tmp/build-area/** dizini altına **lider-console_1
 
 komutu ile sisteme kurulur. Uygulamalar menüsünden veya uçbirimden **"lider-console"** olarak aratılarak çalıştırılabilir.
 
-## LiderAhenk Deposunun Sisteme Eklenmesi##
+## LiderAhenk Deposunun Sisteme Eklenmesi
 
 LiderAhenk bileşenleri ve eklentileri "repo.liderahenk.org" adresinde sunulmaktadır. Pardus bilgisayarlarda bu adres tanımlanarak tüm eklentiler depodan yüklenebilmektedir. Bu deponun sisteminize tanımlanması için uçbirim(konsol)da;
 
@@ -48,7 +48,7 @@ Daha sonra;
 
 komutu ile güncel paket listesini alınmalıdır. 
 
-## Paketin Depodan Sisteme Yüklenmesi-Kaldırılması##
+## Paketin Depodan Sisteme Yüklenmesi-Kaldırılması
 
 Uçbirimde;
 
