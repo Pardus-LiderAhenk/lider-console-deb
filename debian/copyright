@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: lider-gui
-Source: https://github.com/farukomercakmak/lider-gui
+Upstream-Name: lider-console-deb
+Source: https://github.com/Pardus-LiderAhenk/lider-console-deb
 
 Files: *
 Copyright: 2018 Ömer Çakmak <farukomercakmak@gmail.com>
