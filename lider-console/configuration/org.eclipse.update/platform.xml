@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1538137137000" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="lider-console-usb-feature" version="1.0.0.201801191340" url="features/lider-console-usb-feature_1.0.0.201801191340/">
+		</feature>
+		<feature id="lider-console-service-feature" version="1.0.0.201801221133" url="features/lider-console-service-feature_1.0.0.201801221133/">
+		</feature>
+		<feature id="lider-console-network-inventory-feature" version="1.0.0.201801191325" url="features/lider-console-network-inventory-feature_1.0.0.201801191325/">
+		</feature>
+		<feature id="lider-console-user-privilege-feature" version="1.0.0.201801191350" url="features/lider-console-user-privilege-feature_1.0.0.201801191350/">
+		</feature>
+		<feature id="lider-console-package-manager-feature" version="1.0.0.201801191333" url="features/lider-console-package-manager-feature_1.0.0.201801191333/">
+		</feature>
+		<feature id="lider-console-script-feature" version="1.0.0.201801191338" url="features/lider-console-script-feature_1.0.0.201801191338/">
+		</feature>
+		<feature id="lider-console-login-manager-feature" version="1.0.0.201801191332" url="features/lider-console-login-manager-feature_1.0.0.201801191332/">
+		</feature>
+		<feature id="lider-console-local-user-feature" version="1.0.0.201801191331" url="features/lider-console-local-user-feature_1.0.0.201801191331/">
+		</feature>
+		<feature id="lider-console-sudoers-feature" version="1.0.0.201801191339" url="features/lider-console-sudoers-feature_1.0.0.201801191339/">
+		</feature>
+		<feature id="lider-console-resource-usage-feature" version="1.0.0.201801191335" url="features/lider-console-resource-usage-feature_1.0.0.201801191335/">
+		</feature>
+		<feature id="lider-console-manage-root-feature" version="1.0.0.201801191325" url="features/lider-console-manage-root-feature_1.0.0.201801191325/">
+		</feature>
+		<feature id="lider-console-conky-feature" version="1.0.0.201801191329" url="features/lider-console-conky-feature_1.0.0.201801191329/">
+		</feature>
+		<feature id="lider-console-remote-access-feature" version="1.0.0.201801191334" url="features/lider-console-remote-access-feature_1.0.0.201801191334/">
+		</feature>
+		<feature id="lider-console-browser-feature" version="1.0.0.201801191328" url="features/lider-console-browser-feature_1.0.0.201801191328/">
+		</feature>
+	</site>
+</config>

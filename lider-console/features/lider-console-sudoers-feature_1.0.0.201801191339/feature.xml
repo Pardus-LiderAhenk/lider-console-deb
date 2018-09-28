@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="lider-console-sudoers-feature"
+      label="Feature"
+      version="1.0.0.201801191339">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="lider-console-sudoers"
+         download-size="10"
+         install-size="14"
+         version="1.0.0.201801191339"
+         unpack="false"/>
+
+</feature>
