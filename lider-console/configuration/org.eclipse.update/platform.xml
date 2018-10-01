@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1538137137000" transient="false">
+<config date="1538395817342" transient="false">
 	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
 		<feature id="lider-console-usb-feature" version="1.0.0.201801191340" url="features/lider-console-usb-feature_1.0.0.201801191340/">
 		</feature>
-		<feature id="lider-console-service-feature" version="1.0.0.201801221133" url="features/lider-console-service-feature_1.0.0.201801221133/">
+		<feature id="lider-console-network-manager-feature" version="1.0.0.201801191332" url="features/lider-console-network-manager-feature_1.0.0.201801191332/">
 		</feature>
-		<feature id="lider-console-network-inventory-feature" version="1.0.0.201801191325" url="features/lider-console-network-inventory-feature_1.0.0.201801191325/">
+		<feature id="lider-console-service-feature" version="1.0.0.201801221133" url="features/lider-console-service-feature_1.0.0.201801221133/">
 		</feature>
 		<feature id="lider-console-user-privilege-feature" version="1.0.0.201801191350" url="features/lider-console-user-privilege-feature_1.0.0.201801191350/">
 		</feature>

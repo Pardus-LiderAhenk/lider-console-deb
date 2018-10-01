@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="lider-console-network-inventory-feature"
-      label="Lider Console Network Inventory Plugin"
-      version="1.0.0.201801191325">
+      id="lider-console-network-manager-feature"
+      label="lider-console-network-manager-feature"
+      version="1.0.0.201801191332">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -17,10 +17,10 @@
    </license>
 
    <plugin
-         id="lider-console-network-inventory"
-         download-size="114"
-         install-size="214"
-         version="1.0.0.201801191325"
+         id="lider-console-network-manager"
+         download-size="53"
+         install-size="87"
+         version="1.0.0.201801191332"
          unpack="false"/>
 
 </feature>

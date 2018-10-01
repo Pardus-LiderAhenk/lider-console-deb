@@ -26,7 +26,6 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_SxZfQsMfEeiqVYPerkHJFw" containerData="2500" selectedElement="_SxZfQ8MfEeiqVYPerkHJFw">
               <children xsi:type="basic:PartStack" xmi:id="_SxZfQ8MfEeiqVYPerkHJFw" elementId="browserFolder" containerData="7500" selectedElement="_SxZfRMMfEeiqVYPerkHJFw">
                 <tags>active</tags>
-                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_SxZfRMMfEeiqVYPerkHJFw" elementId="tr.org.liderahenk.liderconsole.core.views.LdapBrowserView" ref="_SvJcgMMfEeiqVYPerkHJFw"/>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_SxZfRcMfEeiqVYPerkHJFw" elementId="connectionFolder" containerData="2500" selectedElement="_SxZfRsMfEeiqVYPerkHJFw">
@@ -780,6 +779,7 @@
   <commands xmi:id="__MDlccMgEeiwD6FPMSsnkQ" elementId="tr.org.liderahenk.liderconsole.commands.NetworkInventory" commandName="A&#x11f;daki Cihazlar" category="_Sjci1sMfEeiqVYPerkHJFw"/>
   <commands xmi:id="__MEMgMMgEeiwD6FPMSsnkQ" elementId="tr.org.liderahenk.liderconsole.commands.NetworkInventoryTask" commandName="A&#x11f;daki Cihazlar" category="_Sjci1sMfEeiqVYPerkHJFw"/>
   <commands xmi:id="__MEMgcMgEeiwD6FPMSsnkQ" elementId="tr.org.liderahenk.liderconsole.commands.NetworkInventoryMultipleFileTransfer" commandName="Dosya Transferi" category="_Sjci1sMfEeiqVYPerkHJFw"/>
+  <commands xmi:id="_WmhjQMV7EeiQ9PXYl20feA" elementId="tr.org.liderahenk.liderconsole.commands.NetworkManagerTask" commandName="A&#x11f;&#x131; Y&#xf6;net" category="_Sjci1sMfEeiqVYPerkHJFw"/>
   <addons xmi:id="_SjHLrMMfEeiqVYPerkHJFw" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_SjHLrcMfEeiqVYPerkHJFw" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_SjHLrsMfEeiqVYPerkHJFw" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

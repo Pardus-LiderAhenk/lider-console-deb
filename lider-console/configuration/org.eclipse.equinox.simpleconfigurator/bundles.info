@@ -19,7 +19,7 @@ lider-console-conky,1.0.0.201801191329,plugins/lider-console-conky_1.0.0.2018011
 lider-console-local-user,1.0.0.201801191331,plugins/lider-console-local-user_1.0.0.201801191331.jar,4,false
 lider-console-login-manager,1.0.0.201801191332,plugins/lider-console-login-manager_1.0.0.201801191332.jar,4,false
 lider-console-manage-root,1.0.0.201801191325,plugins/lider-console-manage-root_1.0.0.201801191325.jar,4,false
-lider-console-network-inventory,1.0.0.201801191325,plugins/lider-console-network-inventory_1.0.0.201801191325.jar,4,false
+lider-console-network-manager,1.0.0.201801191332,plugins/lider-console-network-manager_1.0.0.201801191332.jar,4,false
 lider-console-package-manager,1.0.0.201801191333,plugins/lider-console-package-manager_1.0.0.201801191333.jar,4,false
 lider-console-remote-access,1.0.0.201801191334,plugins/lider-console-remote-access_1.0.0.201801191334.jar,4,false
 lider-console-resource-usage,1.0.0.201801191335,plugins/lider-console-resource-usage_1.0.0.201801191335.jar,4,false
