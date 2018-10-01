@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1538395817342" transient="false">
+<config date="1538402006871" transient="false">
 	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
 		<feature id="lider-console-usb-feature" version="1.0.0.201801191340" url="features/lider-console-usb-feature_1.0.0.201801191340/">
 		</feature>
@@ -23,7 +23,7 @@
 		</feature>
 		<feature id="lider-console-manage-root-feature" version="1.0.0.201801191325" url="features/lider-console-manage-root-feature_1.0.0.201801191325/">
 		</feature>
-		<feature id="lider-console-conky-feature" version="1.0.0.201801191329" url="features/lider-console-conky-feature_1.0.0.201801191329/">
+		<feature id="lider-console-conky-feature" version="1.0.0.201810011343" url="features/lider-console-conky-feature_1.0.0.201810011343/">
 		</feature>
 		<feature id="lider-console-remote-access-feature" version="1.0.0.201801191334" url="features/lider-console-remote-access-feature_1.0.0.201801191334/">
 		</feature>

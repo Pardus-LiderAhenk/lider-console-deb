@@ -154,3 +154,11 @@ repositories/file\:_home_foc-065035021_dev_lider-console-deb_lider-console_confi
 repositories/file\:_home_foc-065035021_dev_lider-console-deb_lider-console_configuration_org.eclipse.osgi_200_data_listener_1925729951/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
 repositories/file\:_home_foc-065035021_dev_lider-console-deb_lider-console_configuration_org.eclipse.osgi_200_data_listener_1925729951/uri=file\:/home/foc-065035021/dev/lider-console-deb/lider-console/configuration/org.eclipse.osgi/200/data/listener_1925729951/
 repositories/file\:_home_foc-065035021_dev_lider-console-deb_lider-console_configuration_org.eclipse.osgi_200_data_listener_1925729951/version=1.0.0
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/enabled=true
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/isSystem=false
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/name=lider-console-conky-feature
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/nickname=lider-console-conky-feature
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/suffix=content.xml
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/uri=jar\:file\:/home/foc-065035021/lider-conky-console_1.1.zip\!/
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/version=1.0.0

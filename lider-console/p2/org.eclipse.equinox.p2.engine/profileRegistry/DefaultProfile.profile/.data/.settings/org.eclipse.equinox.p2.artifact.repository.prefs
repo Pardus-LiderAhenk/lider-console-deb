@@ -210,3 +210,12 @@ repositories/file\:_home_foc-065035021_dev_lider-console-deb_lider-console_p2_or
 repositories/file\:_home_foc-065035021_dev_lider-console-deb_lider-console_p2_org.eclipse.equinox.p2.core_cache/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
 repositories/file\:_home_foc-065035021_dev_lider-console-deb_lider-console_p2_org.eclipse.equinox.p2.core_cache/uri=file\:/home/foc-065035021/dev/lider-console-deb/lider-console/p2/org.eclipse.equinox.p2.core/cache/
 repositories/file\:_home_foc-065035021_dev_lider-console-deb_lider-console_p2_org.eclipse.equinox.p2.core_cache/version=1.0.0
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/description=
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/enabled=true
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/isSystem=false
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/name=lider-console-conky-feature Artifacts
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/provider=
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/suffix=artifacts.xml
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/uri=jar\:file\:/home/foc-065035021/lider-conky-console_1.1.zip\!/
+repositories/jar\:file\:_home_foc-065035021_lider-conky-console_1.1.zip\!/version=1.0.0

@@ -1,0 +1,1019 @@
+#!SEARCH REQUEST (5) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:53:59.719
+# LDAP URL     : ldap://192.168.56.103:389/?subschemaSubentry??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "" -s base -a always "(objectClass=*)" "subschemaSubentry"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : subschemaSubentry
+
+#!SEARCH REQUEST (6) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:53:59.730
+# LDAP URL     : ldap://192.168.56.103:389/cn=Subschema?objectClasses,attributeTypes,ldapSyntaxes,matchingRules,matchingRuleUse,createTimestamp,modifyTimestamp??(objectClass=subschema)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=Subschema" -s base -a always "(objectClass=subschema)" "objectClasses" "attributeTypes" "ldapSyntaxes" "matchingRules" "matchingRuleUse" "createTimestamp" "modifyTimestamp"
+# baseObject   : cn=Subschema
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=subschema)
+# attributes   : objectClasses attributeTypes ldapSyntaxes matchingRules matchingRuleUse createTimestamp modifyTimestamp
+
+#!SEARCH REQUEST (7) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.390
+# LDAP URL     : ldap://192.168.56.103:389/?namingContexts,subschemaSubentry,supportedLDAPVersion,supportedSASLMechanisms,supportedExtension,supportedControl,supportedFeatures,vendorName,vendorVersion,+,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "" -s base "(objectClass=*)" "namingContexts" "subschemaSubentry" "supportedLDAPVersion" "supportedSASLMechanisms" "supportedExtension" "supportedControl" "supportedFeatures" "vendorName" "vendorVersion" "+" "objectClass"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : namingContexts subschemaSubentry supportedLDAPVersion supportedSASLMechanisms supportedExtension supportedControl supportedFeatures vendorName vendorVersion + objectClass
+
+#!SEARCH RESULT DONE (7) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.418
+# numEntries : 1
+
+#!SEARCH REQUEST (8) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.419
+# LDAP URL     : ldap://192.168.56.103:389/?*??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "" -s base "(objectClass=*)" "*"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : *
+
+#!SEARCH RESULT DONE (8) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.420
+# numEntries : 1
+
+#!SEARCH REQUEST (9) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.422
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (9) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.435
+# numEntries : 1
+
+#!SEARCH REQUEST (10) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.437
+# LDAP URL     : ldap://192.168.56.103:389/cn=Subschema?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=Subschema" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=Subschema
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (10) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.440
+# numEntries : 1
+
+#!SEARCH REQUEST (11) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.442
+# LDAP URL     : ldap://192.168.56.103:389/cn=config?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=config" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=config
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (11) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.442
+# numEntries : 0
+
+#!SEARCH REQUEST (12) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.533
+# LDAP URL     : ldap://192.168.56.103:389/cn=lider_console,dc=liderahenk,dc=org?uid??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=lider_console,dc=liderahenk,dc=org" -s base -z 1 "(objectClass=*)" "uid"
+# baseObject   : cn=lider_console,dc=liderahenk,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : uid
+
+#!SEARCH REQUEST (13) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:00.537
+# LDAP URL     : ldap://192.168.56.103:389/cn=liderAhenkConfig,dc=liderahenk,dc=org???(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=liderAhenkConfig,dc=liderahenk,dc=org" -s base -z 1 "(objectClass=*)" "1.1"
+# baseObject   : cn=liderAhenkConfig,dc=liderahenk,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : 1.1
+
+#!SEARCH REQUEST (14) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.156
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org?uid?sub?(%7C(&(objectClass=pardusAccount)(objectClass=pardusLider))(&(objectClass=pardusDevice)(objectClass=device)))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub "(|(&(objectClass=pardusAccount)(objectClass=pardusLider))(&(objectClass=pardusDevice)(objectClass=device)))" "uid"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(&(objectClass=pardusAccount)(objectClass=pardusLider))(&(objectClass=pardusDevice)(objectClass=device)))
+# attributes   : uid
+
+#!SEARCH RESULT DONE (14) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.172
+# numEntries : 8
+
+#!SEARCH REQUEST (15) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.428
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=lider_sunucu)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=lider_sunucu)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=lider_sunucu)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (15) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.429
+# numEntries : 0
+
+#!SEARCH REQUEST (16) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.431
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=admin)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=admin)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=admin)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (16) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.431
+# numEntries : 0
+
+#!SEARCH REQUEST (17) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.487
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=lider_sunucu)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=lider_sunucu)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=lider_sunucu)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (17) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.488
+# numEntries : 0
+
+#!SEARCH REQUEST (18) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.519
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org?objectClass?sub?(&(objectClass=pardusDevice)(objectClass=device))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub "(&(objectClass=pardusDevice)(objectClass=device))" "objectClass"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (&(objectClass=pardusDevice)(objectClass=device))
+# attributes   : objectClass
+
+#!SEARCH RESULT DONE (18) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:01.520
+# numEntries : 0
+
+#!SEARCH REQUEST (19) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.890
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (19) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.923
+# numEntries : 6
+
+#!SEARCH REQUEST (20) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.925
+# LDAP URL     : ldap://192.168.56.103:389/ou=Roles,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Roles,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=Roles,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (20) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.926
+# numEntries : 0
+
+#!SEARCH REQUEST (21) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.927
+# LDAP URL     : ldap://192.168.56.103:389/ou=Groups,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Groups,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=Groups,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (21) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.927
+# numEntries : 0
+
+#!SEARCH REQUEST (22) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.929
+# LDAP URL     : ldap://192.168.56.103:389/ou=Ahenkler,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Ahenkler,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=Ahenkler,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (22) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.929
+# numEntries : 0
+
+#!SEARCH REQUEST (23) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.930
+# LDAP URL     : ldap://192.168.56.103:389/ou=netgroup,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=netgroup,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=netgroup,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (23) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.940
+# numEntries : 0
+
+#!SEARCH REQUEST (24) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.941
+# LDAP URL     : ldap://192.168.56.103:389/cn=lider_console,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=lider_console,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : cn=lider_console,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (24) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.942
+# numEntries : 0
+
+#!SEARCH REQUEST (25) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:03.943
+# LDAP URL     : ldap://192.168.56.103:389/ou=Kullan%C4%B1c%C4%B1lar,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Kullanıcılar,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=Kullanıcılar,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (25) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:04.046
+# numEntries : 7
+
+#!SEARCH REQUEST (26) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:05.349
+# LDAP URL     : ldap://192.168.56.103:389/ou=Ahenkler,dc=liderahenk,dc=org?objectClass?sub?(&(objectClass=pardusAccount)(objectClass=pardusLider))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Ahenkler,dc=liderahenk,dc=org" -s sub "(&(objectClass=pardusAccount)(objectClass=pardusLider))" "objectClass"
+# baseObject   : ou=Ahenkler,dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (&(objectClass=pardusAccount)(objectClass=pardusLider))
+# attributes   : objectClass
+
+#!SEARCH RESULT DONE (26) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:54:05.349
+# numEntries : 0
+
+#!SEARCH REQUEST (27) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.358
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=6682324039101063633330)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=6682324039101063633330)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=6682324039101063633330)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (27) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.359
+# numEntries : 0
+
+#!SEARCH REQUEST (28) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.385
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=6682324039101063633330)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=6682324039101063633330)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=6682324039101063633330)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (28) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.385
+# numEntries : 0
+
+#!SEARCH REQUEST (29) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.462
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=6682324039101063633330)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=6682324039101063633330)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=6682324039101063633330)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (29) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.463
+# numEntries : 0
+
+#!SEARCH REQUEST (30) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.464
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=6682324039101063633330)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=6682324039101063633330)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=6682324039101063633330)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (30) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.465
+# numEntries : 0
+
+#!SEARCH REQUEST (31) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.468
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=6682324039101063633330)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=6682324039101063633330)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=6682324039101063633330)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (31) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.469
+# numEntries : 0
+
+#!SEARCH REQUEST (32) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.470
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=6682324039101063633330)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=6682324039101063633330)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=6682324039101063633330)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (32) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:28.470
+# numEntries : 0
+
+#!SEARCH REQUEST (33) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.639
+# LDAP URL     : ldap://192.168.56.103:389/?subschemaSubentry??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "" -s base -a always "(objectClass=*)" "subschemaSubentry"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : subschemaSubentry
+
+#!SEARCH REQUEST (34) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.641
+# LDAP URL     : ldap://192.168.56.103:389/cn=Subschema?createTimestamp,modifyTimestamp??(objectClass=subschema)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=Subschema" -s base -a always "(objectClass=subschema)" "createTimestamp" "modifyTimestamp"
+# baseObject   : cn=Subschema
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=subschema)
+# attributes   : createTimestamp modifyTimestamp
+
+#!SEARCH RESULT DONE (34) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.699
+# numEntries : 1
+
+#!SEARCH REQUEST (35) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.700
+# LDAP URL     : ldap://192.168.56.103:389/?namingContexts,subschemaSubentry,supportedLDAPVersion,supportedSASLMechanisms,supportedExtension,supportedControl,supportedFeatures,vendorName,vendorVersion,+,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "" -s base "(objectClass=*)" "namingContexts" "subschemaSubentry" "supportedLDAPVersion" "supportedSASLMechanisms" "supportedExtension" "supportedControl" "supportedFeatures" "vendorName" "vendorVersion" "+" "objectClass"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : namingContexts subschemaSubentry supportedLDAPVersion supportedSASLMechanisms supportedExtension supportedControl supportedFeatures vendorName vendorVersion + objectClass
+
+#!SEARCH RESULT DONE (35) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.842
+# numEntries : 1
+
+#!SEARCH REQUEST (36) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.843
+# LDAP URL     : ldap://192.168.56.103:389/?*??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "" -s base "(objectClass=*)" "*"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : *
+
+#!SEARCH RESULT DONE (36) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.844
+# numEntries : 1
+
+#!SEARCH REQUEST (37) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.846
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (37) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.888
+# numEntries : 1
+
+#!SEARCH REQUEST (38) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.889
+# LDAP URL     : ldap://192.168.56.103:389/cn=Subschema?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=Subschema" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=Subschema
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (38) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.891
+# numEntries : 1
+
+#!SEARCH REQUEST (39) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.892
+# LDAP URL     : ldap://192.168.56.103:389/cn=config?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=config" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=config
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (39) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.893
+# numEntries : 0
+
+#!SEARCH REQUEST (40) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.910
+# LDAP URL     : ldap://192.168.56.103:389/cn=lider_console,dc=liderahenk,dc=org?uid??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=lider_console,dc=liderahenk,dc=org" -s base -z 1 "(objectClass=*)" "uid"
+# baseObject   : cn=lider_console,dc=liderahenk,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : uid
+
+#!SEARCH REQUEST (41) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:46.917
+# LDAP URL     : ldap://192.168.56.103:389/cn=liderAhenkConfig,dc=liderahenk,dc=org???(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=liderAhenkConfig,dc=liderahenk,dc=org" -s base -z 1 "(objectClass=*)" "1.1"
+# baseObject   : cn=liderAhenkConfig,dc=liderahenk,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : 1.1
+
+#!SEARCH REQUEST (42) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:47.004
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org?uid?sub?(%7C(&(objectClass=pardusAccount)(objectClass=pardusLider))(&(objectClass=pardusDevice)(objectClass=device)))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub "(|(&(objectClass=pardusAccount)(objectClass=pardusLider))(&(objectClass=pardusDevice)(objectClass=device)))" "uid"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(&(objectClass=pardusAccount)(objectClass=pardusLider))(&(objectClass=pardusDevice)(objectClass=device)))
+# attributes   : uid
+
+#!SEARCH RESULT DONE (42) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:47.030
+# numEntries : 9
+
+#!SEARCH REQUEST (44) OK
+#!SEARCH REQUEST (43) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:47.070
+#!DATE 2018-10-01T13:55:47.070
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=lider_sunucu)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=lider_sunucu)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=lider_sunucu)
+# attributes   : 1.1
+
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=lider_sunucu)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=lider_sunucu)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=lider_sunucu)
+# attributes   : 1.1
+
+#!SEARCH RESULT DONE (44) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:47.070
+# numEntries : 0
+
+#!SEARCH RESULT DONE (43) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:47.071
+# numEntries : 0
+
+#!SEARCH REQUEST (46) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:47.074
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??sub?(uid=admin)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub -z 1 "(uid=admin)" "1.1"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (uid=admin)
+# attributes   : 1.1
+
+#!SEARCH REQUEST (45) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:47.075
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org?objectClass?sub?(&(objectClass=pardusDevice)(objectClass=device))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s sub "(&(objectClass=pardusDevice)(objectClass=device))" "objectClass"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (&(objectClass=pardusDevice)(objectClass=device))
+# attributes   : objectClass
+
+#!SEARCH RESULT DONE (46) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!SEARCH RESULT DONE (45) OK
+#!DATE 2018-10-01T13:55:47.076
+#!CONNECTION ldap://192.168.56.103:389
+# numEntries : 0
+
+#!DATE 2018-10-01T13:55:47.076
+# numEntries : 1
+
+#!SEARCH REQUEST (47) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.908
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (47) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.937
+# numEntries : 6
+
+#!SEARCH REQUEST (48) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.938
+# LDAP URL     : ldap://192.168.56.103:389/ou=Roles,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Roles,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=Roles,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (48) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.947
+# numEntries : 0
+
+#!SEARCH REQUEST (49) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.949
+# LDAP URL     : ldap://192.168.56.103:389/ou=Groups,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Groups,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=Groups,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (49) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.953
+# numEntries : 0
+
+#!SEARCH REQUEST (50) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.958
+# LDAP URL     : ldap://192.168.56.103:389/ou=Ahenkler,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Ahenkler,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=Ahenkler,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (50) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.960
+# numEntries : 1
+
+#!SEARCH REQUEST (51) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.961
+# LDAP URL     : ldap://192.168.56.103:389/ou=netgroup,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=netgroup,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=netgroup,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (51) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.962
+# numEntries : 0
+
+#!SEARCH REQUEST (52) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.963
+# LDAP URL     : ldap://192.168.56.103:389/cn=lider_console,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=lider_console,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : cn=lider_console,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (52) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.964
+# numEntries : 0
+
+#!SEARCH REQUEST (53) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:48.965
+# LDAP URL     : ldap://192.168.56.103:389/ou=Kullan%C4%B1c%C4%B1lar,dc=liderahenk,dc=org??one?(%7C(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Kullanıcılar,dc=liderahenk,dc=org" -s one "(|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))"
+# baseObject   : ou=Kullanıcılar,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=person)(objectClass=organizationalUnit)(objectClass=pardusDevice))
+# attributes   : *
+
+#!SEARCH RESULT DONE (53) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:49.077
+# numEntries : 7
+
+#!SEARCH REQUEST (54) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:53.796
+# LDAP URL     : ldap://192.168.56.103:389/ou=Ahenkler,dc=liderahenk,dc=org??one?(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "ou=Ahenkler,dc=liderahenk,dc=org" -s one "(objectClass=*)"
+# baseObject   : ou=Ahenkler,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : *
+
+#!SEARCH RESULT DONE (54) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:53.799
+# numEntries : 1
+
+#!SEARCH REQUEST (55) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:53.800
+# LDAP URL     : ldap://192.168.56.103:389/cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org??one?(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org" -s one "(objectClass=*)"
+# baseObject   : cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org
+# scope        : singleLevel (1)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : *
+
+#!SEARCH RESULT DONE (55) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:55:53.801
+# numEntries : 0
+
+#!SEARCH REQUEST (56) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:56:08.125
+# LDAP URL     : ldap://192.168.56.103:389/cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org?objectClass?sub?(&(objectClass=pardusDevice)(objectClass=device))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org" -s sub "(&(objectClass=pardusDevice)(objectClass=device))" "objectClass"
+# baseObject   : cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (&(objectClass=pardusDevice)(objectClass=device))
+# attributes   : objectClass
+
+#!SEARCH RESULT DONE (56) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:56:08.126
+# numEntries : 1
+
+#!SEARCH REQUEST (57) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:56:08.127
+# LDAP URL     : ldap://192.168.56.103:389/cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org?objectClass?sub?(&(objectClass=pardusAccount)(objectClass=pardusLider))
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org" -s sub "(&(objectClass=pardusAccount)(objectClass=pardusLider))" "objectClass"
+# baseObject   : cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (&(objectClass=pardusAccount)(objectClass=pardusLider))
+# attributes   : objectClass
+
+#!SEARCH RESULT DONE (57) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:56:08.127
+# numEntries : 0
+
+#!SEARCH REQUEST (58) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:56:08.128
+# LDAP URL     : ldap://192.168.56.103:389/cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org?objectClass?sub?(objectClass=groupOfNames)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org" -s sub "(objectClass=groupOfNames)" "objectClass"
+# baseObject   : cn=pardus-17,ou=Ahenkler,dc=liderahenk,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=groupOfNames)
+# attributes   : objectClass
+
+#!SEARCH RESULT DONE (58) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:56:08.128
+# numEntries : 0
+
+#!SEARCH REQUEST (59) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:57:49.782
+# LDAP URL     : ldap://192.168.56.103:389/cn=lider_console,dc=liderahenk,dc=org?uid??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=lider_console,dc=liderahenk,dc=org" -s base -z 1 "(objectClass=*)" "uid"
+# baseObject   : cn=lider_console,dc=liderahenk,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : uid
+
+#!SEARCH REQUEST (60) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-01T13:57:49.783
+# LDAP URL     : ldap://192.168.56.103:389/cn=liderAhenkConfig,dc=liderahenk,dc=org???(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=liderAhenkConfig,dc=liderahenk,dc=org" -s base -z 1 "(objectClass=*)" "1.1"
+# baseObject   : cn=liderAhenkConfig,dc=liderahenk,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : 1.1
+

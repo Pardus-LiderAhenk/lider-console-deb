@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="hostHistory">
+		<item value="192.168.56.103"/>
+	</list>
+	<list key="portHistory">
+		<item value="389"/>
+	</list>
+	<list key="principalHistory">
+		<item value="cn=lider_console,dc=liderahenk,dc=org"/>
+	</list>
+</section>
