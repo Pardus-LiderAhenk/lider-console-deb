@@ -1,0 +1,95 @@
+#!SEARCH REQUEST (0) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:15.981
+# LDAP URL     : ldap://192.168.56.103:389/?namingContexts,subschemaSubentry,supportedLDAPVersion,supportedSASLMechanisms,supportedExtension,supportedControl,supportedFeatures,vendorName,vendorVersion,+,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "" -s base "(objectClass=*)" "namingContexts" "subschemaSubentry" "supportedLDAPVersion" "supportedSASLMechanisms" "supportedExtension" "supportedControl" "supportedFeatures" "vendorName" "vendorVersion" "+" "objectClass"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : namingContexts subschemaSubentry supportedLDAPVersion supportedSASLMechanisms supportedExtension supportedControl supportedFeatures vendorName vendorVersion + objectClass
+
+#!SEARCH RESULT DONE (0) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:16.076
+# numEntries : 1
+
+#!SEARCH REQUEST (1) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:16.078
+# LDAP URL     : ldap://192.168.56.103:389/?*??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "" -s base "(objectClass=*)" "*"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : *
+
+#!SEARCH RESULT DONE (1) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:16.081
+# numEntries : 1
+
+#!SEARCH REQUEST (2) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:16.086
+# LDAP URL     : ldap://192.168.56.103:389/dc=liderahenk,dc=org?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "dc=liderahenk,dc=org" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : dc=liderahenk,dc=org
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (2) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:16.145
+# numEntries : 1
+
+#!SEARCH REQUEST (3) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:16.146
+# LDAP URL     : ldap://192.168.56.103:389/cn=Subschema?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=Subschema" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=Subschema
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (3) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:16.166
+# numEntries : 1
+
+#!SEARCH REQUEST (4) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:16.168
+# LDAP URL     : ldap://192.168.56.103:389/cn=config?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.103:389 -x -D "cn=lider_console,dc=liderahenk,dc=org" -W -b "cn=config" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=config
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (4) OK
+#!CONNECTION ldap://192.168.56.103:389
+#!DATE 2018-10-02T13:46:16.169
+# numEntries : 0
+

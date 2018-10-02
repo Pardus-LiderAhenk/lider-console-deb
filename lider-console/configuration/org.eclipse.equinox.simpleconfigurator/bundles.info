@@ -14,7 +14,7 @@ javax.servlet,3.1.0.v201410161800,plugins/javax.servlet_3.1.0.v201410161800.jar,
 javax.transaction,1.1.1.v201105210645,plugins/javax.transaction_1.1.1.v201105210645.jar,4,false
 javax.xml,1.3.4.v201005080400,plugins/javax.xml_1.3.4.v201005080400.jar,4,false
 javax.xml.stream,1.0.1.v201004272200,plugins/javax.xml.stream_1.0.1.v201004272200.jar,4,false
-lider-console-browser,1.0.0.201801191328,plugins/lider-console-browser_1.0.0.201801191328.jar,4,false
+lider-console-browser,1.0.0.201810021301,plugins/lider-console-browser_1.0.0.201810021301.jar,4,false
 lider-console-conky,1.0.0.201810011343,plugins/lider-console-conky_1.0.0.201810011343.jar,4,false
 lider-console-local-user,1.0.0.201801191331,plugins/lider-console-local-user_1.0.0.201801191331.jar,4,false
 lider-console-login-manager,1.0.0.201801191332,plugins/lider-console-login-manager_1.0.0.201801191332.jar,4,false

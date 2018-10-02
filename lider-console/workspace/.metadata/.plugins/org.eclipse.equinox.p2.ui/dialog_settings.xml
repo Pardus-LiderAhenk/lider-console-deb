@@ -15,7 +15,7 @@
 		<item value="true" key="ShowLatestVersionsOnly"/>
 		<item value="200" key="AvailableDetailsSashWeight"/>
 		<item value="true" key="ResolveInstallWithAllSites"/>
-		<item value="450" key="AvailableNameColumnWidth"/>
+		<item value="694" key="AvailableNameColumnWidth"/>
 		<item value="false" key="FilterOnEnv"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UninstallWizard.WizardSettings">

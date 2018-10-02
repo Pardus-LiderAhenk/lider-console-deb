@@ -23,7 +23,7 @@
           <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_QE4S1cWJEeiCmI4Wf0BKmQ" selectedElement="_QE4S28WJEeiCmI4Wf0BKmQ" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_QE4S1sWJEeiCmI4Wf0BKmQ" containerData="2500" selectedElement="_QE4S18WJEeiCmI4Wf0BKmQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_QE4S1sWJEeiCmI4Wf0BKmQ" containerData="2500" selectedElement="_QE4S2cWJEeiCmI4Wf0BKmQ">
               <children xsi:type="basic:PartStack" xmi:id="_QE4S18WJEeiCmI4Wf0BKmQ" elementId="browserFolder" containerData="7500" selectedElement="_QE4S2MWJEeiCmI4Wf0BKmQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_QE4S2MWJEeiCmI4Wf0BKmQ" elementId="tr.org.liderahenk.liderconsole.core.views.LdapBrowserView" ref="_QE4TDsWJEeiCmI4Wf0BKmQ"/>
               </children>
@@ -33,7 +33,7 @@
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_QE4S28WJEeiCmI4Wf0BKmQ" containerData="7500" selectedElement="_QE4S3cWJEeiCmI4Wf0BKmQ" horizontal="true">
               <children xsi:type="advanced:Placeholder" xmi:id="_QE4S3MWJEeiCmI4Wf0BKmQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_QE4TDMWJEeiCmI4Wf0BKmQ"/>
-              <children xsi:type="basic:PartStack" xmi:id="_QE4S3cWJEeiCmI4Wf0BKmQ" elementId="logFolder" containerData="2500" selectedElement="_1UfkEcWJEeiWNOFCVWzDoQ">
+              <children xsi:type="basic:PartStack" xmi:id="_QE4S3cWJEeiCmI4Wf0BKmQ" elementId="logFolder" containerData="2500" selectedElement="_QE4S38WJEeiCmI4Wf0BKmQ">
                 <tags>LDAP Browser</tags>
                 <tags>Lider</tags>
                 <tags>active</tags>
@@ -96,12 +96,14 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_1FnakcWJEeiWNOFCVWzDoQ" elementId="org.apache.directory.studio.ldapbrowser.ui.views.modificationlogs.ModificationLogsView"/>
+      <toolbar xmi:id="_1FnakcWJEeiWNOFCVWzDoQ" elementId="org.apache.directory.studio.ldapbrowser.ui.views.modificationlogs.ModificationLogsView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_QE4THsWJEeiCmI4Wf0BKmQ" elementId="org.apache.directory.studio.ldapbrowser.ui.views.searchlogs.SearchLogsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Search Logs" iconURI="platform:/plugin/org.apache.directory.studio.ldapbrowser.ui/resources/icons/browser_modificationlogview.gif" tooltip="" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:LDAP Browser</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_1G4l4MWJEeiWNOFCVWzDoQ" elementId="org.apache.directory.studio.ldapbrowser.ui.views.searchlogs.SearchLogsView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -122,13 +124,11 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Lider</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_1Up8IMWJEeiWNOFCVWzDoQ" elementId="tr.org.liderahenk.liderconsole.core.views.SystemLogsView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_1Up8IcWJEeiWNOFCVWzDoQ" elementId="tr.org.liderahenk.liderconsole.core.views.SystemLogsView"/>
+      <toolbar xmi:id="_1Up8IcWJEeiWNOFCVWzDoQ" elementId="tr.org.liderahenk.liderconsole.core.views.SystemLogsView" visible="false"/>
     </sharedElements>
     <trimBars xmi:id="_QE4TH8WJEeiCmI4Wf0BKmQ" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench">
       <children xsi:type="menu:ToolBar" xmi:id="_QE4TIMWJEeiCmI4Wf0BKmQ" elementId="org.apache.directory.studio.rcp.toolbar">

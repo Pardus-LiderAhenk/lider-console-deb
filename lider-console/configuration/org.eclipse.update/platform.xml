@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1538402006871" transient="false">
+<config date="1538487090675" transient="false">
 	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
 		<feature id="lider-console-usb-feature" version="1.0.0.201801191340" url="features/lider-console-usb-feature_1.0.0.201801191340/">
 		</feature>
 		<feature id="lider-console-network-manager-feature" version="1.0.0.201801191332" url="features/lider-console-network-manager-feature_1.0.0.201801191332/">
 		</feature>
 		<feature id="lider-console-service-feature" version="1.0.0.201801221133" url="features/lider-console-service-feature_1.0.0.201801221133/">
-		</feature>
-		<feature id="lider-console-user-privilege-feature" version="1.0.0.201801191350" url="features/lider-console-user-privilege-feature_1.0.0.201801191350/">
 		</feature>
 		<feature id="lider-console-package-manager-feature" version="1.0.0.201801191333" url="features/lider-console-package-manager-feature_1.0.0.201801191333/">
 		</feature>
@@ -27,7 +25,7 @@
 		</feature>
 		<feature id="lider-console-remote-access-feature" version="1.0.0.201801191334" url="features/lider-console-remote-access-feature_1.0.0.201801191334/">
 		</feature>
-		<feature id="lider-console-browser-feature" version="1.0.0.201801191328" url="features/lider-console-browser-feature_1.0.0.201801191328/">
+		<feature id="lider-console-browser-feature" version="1.0.0.201810021301" url="features/lider-console-browser-feature_1.0.0.201810021301/">
 		</feature>
 	</site>
 </config>
