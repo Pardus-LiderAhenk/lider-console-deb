@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+repositories/file\:_home_lider_Desktop_export-lider-console_lider-console_1.1.1_configuration_org.eclipse.osgi_201_data_listener_1925729951/description=
+repositories/file\:_home_lider_Desktop_export-lider-console_lider-console_1.1.1_configuration_org.eclipse.osgi_201_data_listener_1925729951/isSystem=true
+repositories/file\:_home_lider_Desktop_export-lider-console_lider-console_1.1.1_configuration_org.eclipse.osgi_201_data_listener_1925729951/name=dropins
+repositories/file\:_home_lider_Desktop_export-lider-console_lider-console_1.1.1_configuration_org.eclipse.osgi_201_data_listener_1925729951/provider=
+repositories/file\:_home_lider_Desktop_export-lider-console_lider-console_1.1.1_configuration_org.eclipse.osgi_201_data_listener_1925729951/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_home_lider_Desktop_export-lider-console_lider-console_1.1.1_configuration_org.eclipse.osgi_201_data_listener_1925729951/uri=file\:/home/lider/Desktop/export-lider-console/lider-console_1.1.1/configuration/org.eclipse.osgi/201/data/listener_1925729951/
+repositories/file\:_home_lider_Desktop_export-lider-console_lider-console_1.1.1_configuration_org.eclipse.osgi_201_data_listener_1925729951/version=1
+repositories/file\:_home_tcolak_dev_lider-ahenk_lider-console-deb_lider-console_configuration_org.eclipse.osgi_201_data_listener_1925729951/enabled=true
+repositories/file\:_home_tcolak_dev_lider-ahenk_lider-console-deb_lider-console_configuration_org.eclipse.osgi_201_data_listener_1925729951/isSystem=true
+repositories/file\:_home_tcolak_dev_lider-ahenk_lider-console-deb_lider-console_configuration_org.eclipse.osgi_201_data_listener_1925729951/name=dropins
+repositories/file\:_home_tcolak_dev_lider-ahenk_lider-console-deb_lider-console_configuration_org.eclipse.osgi_201_data_listener_1925729951/suffix=content.xml
+repositories/file\:_home_tcolak_dev_lider-ahenk_lider-console-deb_lider-console_configuration_org.eclipse.osgi_201_data_listener_1925729951/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/file\:_home_tcolak_dev_lider-ahenk_lider-console-deb_lider-console_configuration_org.eclipse.osgi_201_data_listener_1925729951/uri=file\:/home/tcolak/dev/lider-ahenk/lider-console-deb/lider-console/configuration/org.eclipse.osgi/201/data/listener_1925729951/
+repositories/file\:_home_tcolak_dev_lider-ahenk_lider-console-deb_lider-console_configuration_org.eclipse.osgi_201_data_listener_1925729951/version=1.0.0

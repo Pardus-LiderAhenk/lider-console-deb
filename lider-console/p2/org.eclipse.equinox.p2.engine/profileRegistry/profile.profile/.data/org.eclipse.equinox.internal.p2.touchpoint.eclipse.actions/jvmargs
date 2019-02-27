@@ -1,0 +1,4 @@
+#Wed Feb 27 16:22:47 EET 2019
+-Xms=512m
+-XX\:MaxPermSize\==256m
+-Xmx=2048m
