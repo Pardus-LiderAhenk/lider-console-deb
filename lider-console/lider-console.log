@@ -1,0 +1,55 @@
+2019-03-06 14:24:06 INFO  ConfigProvider:61 - Trying to load config.properties file.
+2019-03-06 14:24:06 INFO  ConfigProvider:68 - Properties loaded.
+2019-03-06 14:24:07 INFO  DefaultLdapCodecService:124 - MSG_06000_REGISTERED_CONTROL_FACTORY (1.3.6.1.4.1.18060.0.0.1)
+2019-03-06 14:24:07 INFO  DefaultLdapCodecService:132 - MSG_06000_REGISTERED_CONTROL_FACTORY (2.16.840.1.113730.3.4.7)
+2019-03-06 14:24:07 INFO  DefaultLdapCodecService:140 - MSG_06000_REGISTERED_CONTROL_FACTORY (2.16.840.1.113730.3.4.2)
+2019-03-06 14:24:07 INFO  DefaultLdapCodecService:148 - MSG_06000_REGISTERED_CONTROL_FACTORY (2.16.840.1.113730.3.4.18)
+2019-03-06 14:24:07 INFO  DefaultLdapCodecService:156 - MSG_06000_REGISTERED_CONTROL_FACTORY (1.2.840.113556.1.4.319)
+2019-03-06 14:24:07 INFO  DefaultLdapCodecService:164 - MSG_06000_REGISTERED_CONTROL_FACTORY (2.16.840.1.113730.3.4.3)
+2019-03-06 14:24:07 INFO  DefaultLdapCodecService:172 - MSG_06000_REGISTERED_CONTROL_FACTORY (1.3.6.1.4.1.4203.1.10.1)
+2019-03-06 14:24:07 INFO  DefaultLdapCodecService:180 - MSG_06000_REGISTERED_CONTROL_FACTORY (1.2.840.113556.1.4.473)
+2019-03-06 14:24:07 INFO  DefaultLdapCodecService:188 - MSG_06000_REGISTERED_CONTROL_FACTORY (1.2.840.113556.1.4.474)
+2019-03-06 14:24:27 WARN  LdapNetworkConnection:2408 - 
+java.lang.NullPointerException
+	at org.apache.directory.ldap.client.api.LdapNetworkConnection.sessionClosed(LdapNetworkConnection.java:4556)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.sessionClosed(DefaultIoFilterChain.java:960)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:606)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:49)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:1105)
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.sessionClosed(ProtocolCodecFilter.java:391)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:606)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$900(DefaultIoFilterChain.java:49)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionClosed(DefaultIoFilterChain.java:1105)
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionClosed(IoFilterAdapter.java:98)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionClosed(DefaultIoFilterChain.java:606)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionClosed(DefaultIoFilterChain.java:599)
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionDestroyed(IoServiceListenerSupport.java:251)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.removeNow(AbstractPollingIoProcessor.java:1163)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.removeSessions(AbstractPollingIoProcessor.java:864)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:694)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-06 14:24:57 INFO  XMPPClient:148 - XMPP service initialization is started
+2019-03-06 14:24:58 INFO  XMPPClient:202 - XMPP configuration finished: org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration@35639139
+2019-03-06 14:24:58 INFO  XMPPClient:212 - xmpp configuraion packet replay timeout 40000
+2019-03-06 14:24:58 ERROR LdapConnectionListener:315 - The following addresses failed: 'im.mys.pardus.org.tr:5222' failed because java.net.UnknownHostException: im.mys.pardus.org.tr: İsim ya da servis bilinmiyor
+java.lang.Exception: The following addresses failed: 'im.mys.pardus.org.tr:5222' failed because java.net.UnknownHostException: im.mys.pardus.org.tr: İsim ya da servis bilinmiyor
+	at tr.org.liderahenk.liderconsole.core.xmpp.XMPPClient.connect(XMPPClient.java:223)
+	at tr.org.liderahenk.liderconsole.core.xmpp.XMPPClient.connect(XMPPClient.java:151)
+	at tr.org.liderahenk.liderconsole.core.ldap.listeners.LdapConnectionListener.connectionOpened(LdapConnectionListener.java:309)
+	at org.apache.directory.studio.connection.core.jobs.OpenConnectionsRunnable.runNotification(OpenConnectionsRunnable.java:132)
+	at org.apache.directory.studio.connection.core.jobs.StudioConnectionJob.run(StudioConnectionJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+2019-03-06 14:25:05 INFO  XMPPClient:148 - XMPP service initialization is started
+2019-03-06 14:25:05 INFO  XMPPClient:202 - XMPP configuration finished: org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration@201402be
+2019-03-06 14:25:05 INFO  XMPPClient:212 - xmpp configuraion packet replay timeout 40000
+2019-03-06 14:25:05 ERROR LdapConnectionListener:315 - The following addresses failed: 'im.mys.pardus.org.tr:5222' failed because java.net.UnknownHostException: im.mys.pardus.org.tr
+java.lang.Exception: The following addresses failed: 'im.mys.pardus.org.tr:5222' failed because java.net.UnknownHostException: im.mys.pardus.org.tr
+	at tr.org.liderahenk.liderconsole.core.xmpp.XMPPClient.connect(XMPPClient.java:223)
+	at tr.org.liderahenk.liderconsole.core.xmpp.XMPPClient.connect(XMPPClient.java:151)
+	at tr.org.liderahenk.liderconsole.core.ldap.listeners.LdapConnectionListener.connectionOpened(LdapConnectionListener.java:309)
+	at org.apache.directory.studio.connection.core.jobs.OpenConnectionsRunnable.runNotification(OpenConnectionsRunnable.java:132)
+	at org.apache.directory.studio.connection.core.jobs.StudioConnectionJob.run(StudioConnectionJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

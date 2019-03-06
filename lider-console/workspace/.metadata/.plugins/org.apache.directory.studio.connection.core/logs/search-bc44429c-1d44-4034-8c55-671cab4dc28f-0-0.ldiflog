@@ -1,0 +1,345 @@
+#!SEARCH REQUEST (5) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.485
+# LDAP URL     : ldap://192.168.56.1:389/?subschemaSubentry??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "" -s base -a always "(objectClass=*)" "subschemaSubentry"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : subschemaSubentry
+
+#!SEARCH REQUEST (6) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.511
+# LDAP URL     : ldap://192.168.56.1:389/cn=Subschema?objectClasses,attributeTypes,ldapSyntaxes,matchingRules,matchingRuleUse,createTimestamp,modifyTimestamp??(objectClass=subschema)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=Subschema" -s base -a always "(objectClass=subschema)" "objectClasses" "attributeTypes" "ldapSyntaxes" "matchingRules" "matchingRuleUse" "createTimestamp" "modifyTimestamp"
+# baseObject   : cn=Subschema
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=subschema)
+# attributes   : objectClasses attributeTypes ldapSyntaxes matchingRules matchingRuleUse createTimestamp modifyTimestamp
+
+#!SEARCH REQUEST (7) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.643
+# LDAP URL     : ldap://192.168.56.1:389/?namingContexts,subschemaSubentry,supportedLDAPVersion,supportedSASLMechanisms,supportedExtension,supportedControl,supportedFeatures,vendorName,vendorVersion,+,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "" -s base "(objectClass=*)" "namingContexts" "subschemaSubentry" "supportedLDAPVersion" "supportedSASLMechanisms" "supportedExtension" "supportedControl" "supportedFeatures" "vendorName" "vendorVersion" "+" "objectClass"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : namingContexts subschemaSubentry supportedLDAPVersion supportedSASLMechanisms supportedExtension supportedControl supportedFeatures vendorName vendorVersion + objectClass
+
+#!SEARCH RESULT DONE (7) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.644
+# numEntries : 1
+
+#!SEARCH REQUEST (8) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.660
+# LDAP URL     : ldap://192.168.56.1:389/?*??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "" -s base "(objectClass=*)" "*"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : *
+
+#!SEARCH RESULT DONE (8) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.661
+# numEntries : 1
+
+#!SEARCH REQUEST (9) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.667
+# LDAP URL     : ldap://192.168.56.1:389/cn=Subschema?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=Subschema" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=Subschema
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (9) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.668
+# numEntries : 1
+
+#!SEARCH REQUEST (10) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.671
+# LDAP URL     : ldap://192.168.56.1:389/cn=config?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=config" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=config
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (10) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.672
+# numEntries : 0
+
+#!SEARCH REQUEST (11) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.693
+# LDAP URL     : ldap://192.168.56.1:389/dc=mys,dc=pardus,dc=org?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "dc=mys,dc=pardus,dc=org" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : dc=mys,dc=pardus,dc=org
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (11) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:55.694
+# numEntries : 1
+
+#!SEARCH REQUEST (12) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:56.008
+# LDAP URL     : ldap://192.168.56.1:389/cn=lider_console,dc=mys,dc=pardus,dc=org?uid??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=lider_console,dc=mys,dc=pardus,dc=org" -s base -z 1 "(objectClass=*)" "uid"
+# baseObject   : cn=lider_console,dc=mys,dc=pardus,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : uid
+
+#!SEARCH REQUEST (13) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:56.018
+# LDAP URL     : ldap://192.168.56.1:389/cn=liderAhenkConfig,dc=mys,dc=pardus,dc=org???(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=liderAhenkConfig,dc=mys,dc=pardus,dc=org" -s base -z 1 "(objectClass=*)" "1.1"
+# baseObject   : cn=liderAhenkConfig,dc=mys,dc=pardus,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : 1.1
+
+#!SEARCH REQUEST (14) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:57.811
+# LDAP URL     : ldap://192.168.56.1:389/dc=mys,dc=pardus,dc=org?uid?sub?(%7C(objectClass=pardusAccount)(&(objectClass=pardusDevice)(objectClass=device)))
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "dc=mys,dc=pardus,dc=org" -s sub "(|(objectClass=pardusAccount)(&(objectClass=pardusDevice)(objectClass=device)))" "uid"
+# baseObject   : dc=mys,dc=pardus,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=pardusAccount)(&(objectClass=pardusDevice)(objectClass=device)))
+# attributes   : uid
+
+#!SEARCH RESULT DONE (14) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:24:57.812
+# numEntries : 19
+
+#!SEARCH REQUEST (15) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.669
+# LDAP URL     : ldap://192.168.56.1:389/?subschemaSubentry??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "" -s base -a always "(objectClass=*)" "subschemaSubentry"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : subschemaSubentry
+
+#!SEARCH REQUEST (16) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.682
+# LDAP URL     : ldap://192.168.56.1:389/cn=Subschema?createTimestamp,modifyTimestamp??(objectClass=subschema)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=Subschema" -s base -a always "(objectClass=subschema)" "createTimestamp" "modifyTimestamp"
+# baseObject   : cn=Subschema
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=subschema)
+# attributes   : createTimestamp modifyTimestamp
+
+#!SEARCH RESULT DONE (16) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.688
+# numEntries : 1
+
+#!SEARCH REQUEST (17) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.693
+# LDAP URL     : ldap://192.168.56.1:389/?namingContexts,subschemaSubentry,supportedLDAPVersion,supportedSASLMechanisms,supportedExtension,supportedControl,supportedFeatures,vendorName,vendorVersion,+,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "" -s base "(objectClass=*)" "namingContexts" "subschemaSubentry" "supportedLDAPVersion" "supportedSASLMechanisms" "supportedExtension" "supportedControl" "supportedFeatures" "vendorName" "vendorVersion" "+" "objectClass"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : namingContexts subschemaSubentry supportedLDAPVersion supportedSASLMechanisms supportedExtension supportedControl supportedFeatures vendorName vendorVersion + objectClass
+
+#!SEARCH RESULT DONE (17) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.694
+# numEntries : 1
+
+#!SEARCH REQUEST (18) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.696
+# LDAP URL     : ldap://192.168.56.1:389/?*??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "" -s base "(objectClass=*)" "*"
+# baseObject   : 
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : *
+
+#!SEARCH RESULT DONE (18) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.696
+# numEntries : 1
+
+#!SEARCH REQUEST (19) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.710
+# LDAP URL     : ldap://192.168.56.1:389/cn=Subschema?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=Subschema" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=Subschema
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (19) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.710
+# numEntries : 1
+
+#!SEARCH REQUEST (20) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.711
+# LDAP URL     : ldap://192.168.56.1:389/cn=config?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=config" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : cn=config
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (20) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.712
+# numEntries : 0
+
+#!SEARCH REQUEST (21) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.713
+# LDAP URL     : ldap://192.168.56.1:389/dc=mys,dc=pardus,dc=org?hasSubordinates,objectClass??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "dc=mys,dc=pardus,dc=org" -s base -a always -z 1 "(objectClass=*)" "hasSubordinates" "objectClass"
+# baseObject   : dc=mys,dc=pardus,dc=org
+# scope        : baseObject (0)
+# derefAliases : derefAlways (3)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : hasSubordinates objectClass
+
+#!SEARCH RESULT DONE (21) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.715
+# numEntries : 1
+
+#!SEARCH REQUEST (22) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.752
+# LDAP URL     : ldap://192.168.56.1:389/cn=lider_console,dc=mys,dc=pardus,dc=org?uid??(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=lider_console,dc=mys,dc=pardus,dc=org" -s base -z 1 "(objectClass=*)" "uid"
+# baseObject   : cn=lider_console,dc=mys,dc=pardus,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : uid
+
+#!SEARCH REQUEST (23) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.760
+# LDAP URL     : ldap://192.168.56.1:389/cn=liderAhenkConfig,dc=mys,dc=pardus,dc=org???(objectClass=*)
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "cn=liderAhenkConfig,dc=mys,dc=pardus,dc=org" -s base -z 1 "(objectClass=*)" "1.1"
+# baseObject   : cn=liderAhenkConfig,dc=mys,dc=pardus,dc=org
+# scope        : baseObject (0)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 1
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (objectClass=*)
+# attributes   : 1.1
+
+#!SEARCH REQUEST (24) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.865
+# LDAP URL     : ldap://192.168.56.1:389/dc=mys,dc=pardus,dc=org?uid?sub?(%7C(objectClass=pardusAccount)(&(objectClass=pardusDevice)(objectClass=device)))
+# command line : ldapsearch -H ldap://192.168.56.1:389 -x -D "cn=lider_console,dc=mys,dc=pardus,dc=org" -W -b "dc=mys,dc=pardus,dc=org" -s sub "(|(objectClass=pardusAccount)(&(objectClass=pardusDevice)(objectClass=device)))" "uid"
+# baseObject   : dc=mys,dc=pardus,dc=org
+# scope        : wholeSubtree (2)
+# derefAliases : neverDerefAliases (0)
+# sizeLimit    : 0
+# timeLimit    : 0
+# typesOnly    : False
+# filter       : (|(objectClass=pardusAccount)(&(objectClass=pardusDevice)(objectClass=device)))
+# attributes   : uid
+
+#!SEARCH RESULT DONE (24) OK
+#!CONNECTION ldap://192.168.56.1:389
+#!DATE 2019-03-06T11:25:05.866
+# numEntries : 19
+

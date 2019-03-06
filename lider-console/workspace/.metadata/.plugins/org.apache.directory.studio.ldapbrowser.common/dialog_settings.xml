@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.apache.directory.studio.ldapbrowser.common.widgets.browser.BrowserQuickSearchWidget.attributeHistory">
+		<item value="cn"/>
+		<item value="sn"/>
+		<item value="givenName"/>
+		<item value="mail"/>
+		<item value="uid"/>
+		<item value="description"/>
+		<item value="o"/>
+		<item value="ou"/>
+		<item value="member"/>
+	</list>
+</section>

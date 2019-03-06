@@ -1,0 +1,29 @@
+!SESSION 2019-03-06 14:23:58.331 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=tr
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.apache.directory.studio.common.core.jobs 4 4 2019-03-06 14:24:28.740
+!MESSAGE Bağlantı başarısız oldu
+ - Bağlanılamadı
+!SUBENTRY 1 org.apache.directory.studio.common.core.jobs 4 4 2019-03-06 14:24:28.740
+!MESSAGE java.lang.Exception: Bağlanılamadı
+	at org.apache.directory.studio.connection.core.io.api.DirectoryApiConnectionWrapper$1.run(DirectoryApiConnectionWrapper.java:251)
+	at org.apache.directory.studio.connection.core.io.api.DirectoryApiConnectionWrapper.runAndMonitor(DirectoryApiConnectionWrapper.java:1312)
+	at org.apache.directory.studio.connection.core.io.api.DirectoryApiConnectionWrapper.doConnect(DirectoryApiConnectionWrapper.java:281)
+	at org.apache.directory.studio.connection.core.io.api.DirectoryApiConnectionWrapper.connect(DirectoryApiConnectionWrapper.java:172)
+	at org.apache.directory.studio.connection.core.jobs.CheckNetworkParameterRunnable.run(CheckNetworkParameterRunnable.java:80)
+	at org.apache.directory.studio.connection.ui.RunnableContextRunner$1.run(RunnableContextRunner.java:140)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!STACK 0
+java.lang.Exception: Bağlanılamadı
+	at org.apache.directory.studio.connection.core.io.api.DirectoryApiConnectionWrapper$1.run(DirectoryApiConnectionWrapper.java:251)
+	at org.apache.directory.studio.connection.core.io.api.DirectoryApiConnectionWrapper.runAndMonitor(DirectoryApiConnectionWrapper.java:1312)
+	at org.apache.directory.studio.connection.core.io.api.DirectoryApiConnectionWrapper.doConnect(DirectoryApiConnectionWrapper.java:281)
+	at org.apache.directory.studio.connection.core.io.api.DirectoryApiConnectionWrapper.connect(DirectoryApiConnectionWrapper.java:172)
+	at org.apache.directory.studio.connection.core.jobs.CheckNetworkParameterRunnable.run(CheckNetworkParameterRunnable.java:80)
+	at org.apache.directory.studio.connection.ui.RunnableContextRunner$1.run(RunnableContextRunner.java:140)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
