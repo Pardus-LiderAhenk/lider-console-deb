@@ -1,3 +1,11 @@
+lider-console (1.3) unstable; urgency=medium
+
+  * lider-console $version
+  * Update changelog for 1.2 release
+  * lider-console new release
+
+ -- Tuncay ÇOLAK <tuncay.colak@tubitak.gov.tr>  Thu, 12 Dec 2019 14:40:26 +0300
+
 lider-console (1.2) unstable; urgency=medium
 
   [ Ömer ÇAKMAK ]
