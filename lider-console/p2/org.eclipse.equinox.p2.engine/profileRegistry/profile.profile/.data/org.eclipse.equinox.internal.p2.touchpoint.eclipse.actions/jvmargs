@@ -1,4 +1,4 @@
-#Wed Dec 11 15:43:47 EET 2019
+#Thu Dec 12 13:35:14 EET 2019
 -Xms=512m
 -XX\:MaxPermSize\==256m
 -Xmx=2048m
