@@ -1,3 +1,28 @@
+lider-console (1.2) unstable; urgency=medium
+
+  [ Ömer ÇAKMAK ]
+  * Update changelog for 1.1 release
+  * README Update
+
+  [ Tuncay ÇOLAK ]
+  * Update README.md
+  * Update README.md
+
+  [ Ömer Çakmak ]
+  * Update copyright
+
+  [ Ömer ÇAKMAK ]
+  * Update md file
+  * Update plugins
+  * Update
+  * Update
+  * Update
+
+  [ Tuncay ÇOLAK ]
+  * lider-console $version
+
+ -- Tuncay ÇOLAK <tuncay.colak@tubitak.gov.tr>  Thu, 12 Dec 2019 09:33:36 +0300
+
 lider-console (1.1) unstable; urgency=medium
 
   * Initial release. Closes: #nnnn
